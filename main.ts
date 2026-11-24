@@ -18,6 +18,9 @@
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
+// The em dash is the joke's hinge: everything before it is the apology
+// loop escalating, everything after it is the payoff — all those sorries
+// produced nothing at all. Keep the dash; without it the turn is lost.
 const ROAST =
   "My agent confidently hallucinated a file, apologized, then hallucinated an apology for the apology — three sorries deep, and the file still doesn't exist.";
 
